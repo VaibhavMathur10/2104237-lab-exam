@@ -1,0 +1,32 @@
+    1  git config --global user.name "VaibhavMathur10"
+    2  git config --global user.email "vaibhav.mathur.21042@iitgoa.ac.in"
+    3  ssh-keygen -T RSA
+    4  ssh-keygen -t RSA
+    5  cd .ssh
+    6  cat id_rsa.pub
+    7  git clone git@github.com:VaibhavMathur10/cs102-git-essentials.git  
+    8  cd 2104237-lab-exam/
+    9  ls
+   10  vim 2104237_data_filter.sh
+   11  bash 2104237_data_filter.sh ca_500.csv city Montreal
+   12  ls
+   13  rm output.csv
+   14  cat ca_city_Montreal.csv
+   15  vim 2104237_data_filter.sh
+   16  bash 2104237_data_filter.sh ca_500.csv city Montreal
+   17  vim 2104237_data_filter.sh
+   18  ls
+   19  vim 2104237_data_filter.sh
+   20  rm .2104237_data_filter.sh.swp
+   21  vim 2104237_data_filter.sh
+   22  ls
+   23  mkdir code data
+   24  ls
+   25  mv *.csv code
+   26  cd code
+   27  ls
+   28  cd ..
+   29  mv *.csv data
+   30  ls
+   31  mv *.sh data
+   32  history >> 2104237.txt
